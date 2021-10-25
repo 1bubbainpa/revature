@@ -1,0 +1,38 @@
+create table myschema.Account (
+	AccountID INT primary key not null,
+	Balance decimal,
+	Approved boolean
+
+);
+
+create table myschema.Customer (
+	CustomerID INT primary key not null,
+	AccountID INT,
+	Username text not null,
+	Passcode text not null,
+	constraint fk_account
+		foreign KEY(accountID)
+		references Account(AccountID)
+
+);
+
+create table myschema.Employee (
+	EmployeeID INT primary key not null,
+	AccountID INT,
+	constraint fk_account
+		foreign key(accountID)
+		references Account(AccountID)
+
+);
+--drop table myschema.account;
+--drop table myschema.customer;
+--drop table myschema.employee;
+
+insert into myschema.Account(AccountID, Balance, Approved) values(1, 45.00, 'true');
+insert into myschema.Account(AccountID, Balance, Approved) values(2, 0.00, 'false');
+
+insert into myschema.Customer(CustomerID, AccountID, Username, Passcode) values(100, 1, 'Hello', 'World');
+insert into myschema.Customer(CustomerID, AccountID, Username, Passcode) values(101, 2, 'user', 'pass');
+
+insert into myschema.Employee(EmployeeID, AccountID) values(1001, 1);
+insert into myschema.Employee(EmployeeID, AccountID) values(1002, 2);
