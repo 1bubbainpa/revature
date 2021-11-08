@@ -1,0 +1,61 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.revatureMichael</groupId>
+  <artifactId>com.revatureMichael</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Banking_App</name>
+  <description>This is our banking application example files</description>
+  
+  <!-- Code Comment for XML
+  	   By default, maven created a java project using java version 5.
+  	   To update to a different version, we must add an element to our
+  	   POM.xml file called "properties element"
+  	   
+  	   After making a change, update the Maven project:
+  	   		right-click
+  	   		Maven
+  	   		Update project -->
+  <properties>
+  	<maven.compiler.source>12</maven.compiler.source>
+  	<maven.compiler.target>12</maven.compiler.target>
+  </properties>
+  
+  <!-- We will add a number of dependencies to incorporate more libraries and functionalities to our project such as:
+  		database driver
+  		JUNIT Suite
+  		Mockito for test mocks and stubs
+  		Logger -->
+  		
+  <dependencies>
+  <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+	<dependency>
+    	<groupId>org.postgresql</groupId>
+    	<artifactId>postgresql</artifactId>
+    	<version>42.3.0</version>
+	</dependency>
+  
+  <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+	<dependency>
+    	<groupId>org.apache.logging.log4j</groupId>
+    	<artifactId>log4j-core</artifactId>
+    	<version>2.14.0</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/junit/junit -->
+	<dependency>
+   	 	<groupId>junit</groupId>
+    	<artifactId>junit</artifactId>
+    	<version>4.13.1</version>
+    	<scope>test</scope>
+	</dependency>
+	
+  	<!-- https://mvnrepository.com/artifact/org.mockito/mockito-core -->
+	<dependency>
+    	<groupId>org.mockito</groupId>
+    	<artifactId>mockito-core</artifactId>
+    	<version>3.9.0</version>
+   		<scope>test</scope>
+	</dependency>
+  	
+  </dependencies>
+</project>

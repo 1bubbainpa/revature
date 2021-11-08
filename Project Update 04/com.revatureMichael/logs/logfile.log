@@ -1,0 +1,26 @@
+2021-11-03 12:14:15  TRACE com.revatureMichael.logging.LogSimulator:17 TRACE LOG!
+2021-11-03 12:14:15  DEBUG com.revatureMichael.logging.LogSimulator:18 DEBUG LOG
+2021-11-03 12:14:15  INFO com.revatureMichael.logging.LogSimulator:19 INFO LOG
+2021-11-03 12:14:15  WARN com.revatureMichael.logging.LogSimulator:20 WARN LOG
+2021-11-03 12:14:15  ERROR com.revatureMichael.logging.LogSimulator:21 ERROR LOG
+2021-11-03 12:14:15  FATAL com.revatureMichael.logging.LogSimulator:22 FATAL LOG
+2021-11-08 01:53:11  TRACE com.revatureMichael.logging.LogSimulator:17 TRACE LOG!
+2021-11-08 01:53:11  DEBUG com.revatureMichael.logging.LogSimulator:18 DEBUG LOG
+2021-11-08 01:53:11  INFO com.revatureMichael.logging.LogSimulator:19 INFO LOG
+2021-11-08 01:53:11  WARN com.revatureMichael.logging.LogSimulator:20 WARN LOG
+2021-11-08 01:53:11  ERROR com.revatureMichael.logging.LogSimulator:21 ERROR LOG
+2021-11-08 01:53:11  FATAL com.revatureMichael.logging.LogSimulator:22 FATAL LOG
+2021-11-08 15:22:03  TRACE com.revatureMichael.logging.LogSimulator:17 TRACE LOG!
+2021-11-08 15:22:03  DEBUG com.revatureMichael.logging.LogSimulator:18 DEBUG LOG
+2021-11-08 15:22:03  INFO com.revatureMichael.logging.LogSimulator:19 INFO LOG
+2021-11-08 15:22:03  WARN com.revatureMichael.logging.LogSimulator:20 WARN LOG
+2021-11-08 15:22:03  ERROR com.revatureMichael.logging.LogSimulator:21 ERROR LOG
+2021-11-08 15:22:03  FATAL com.revatureMichael.logging.LogSimulator:22 FATAL LOG
+2021-11-08 15:23:25  TRACE com.revatureMichael.logging.LogSimulator:17 TRACE LOG!
+2021-11-08 15:23:25  DEBUG com.revatureMichael.logging.LogSimulator:18 DEBUG LOG
+2021-11-08 15:23:25  INFO com.revatureMichael.logging.LogSimulator:19 INFO LOG
+2021-11-08 15:23:25  WARN com.revatureMichael.logging.LogSimulator:20 WARN LOG
+2021-11-08 15:23:25  ERROR com.revatureMichael.logging.LogSimulator:21 ERROR LOG
+2021-11-08 15:23:25  FATAL com.revatureMichael.logging.LogSimulator:22 FATAL LOG
+2021-11-08 15:25:05  WARN com.revatureMichael.banking.app.BankReader:21 Warning: Bad Input Detected!
+2021-11-08 15:25:54  WARN com.revatureMichael.banking.app.BankReader:21 Bad Input Detected under BankReader ReadInt method
