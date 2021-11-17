@@ -1,0 +1,31 @@
+2021-11-15 05:45:37  TRACE com.michael.logging.LogSimulator:17 Trace
+2021-11-15 05:45:37  TRACE com.michael.logging.LogSimulator:18 Debug
+2021-11-15 05:45:37  TRACE com.michael.logging.LogSimulator:19 Info
+2021-11-15 05:45:37  TRACE com.michael.logging.LogSimulator:20 Warn
+2021-11-15 05:45:37  TRACE com.michael.logging.LogSimulator:21 Error
+2021-11-15 05:45:37  TRACE com.michael.logging.LogSimulator:22 Fatal
+2021-11-15 06:26:06  TRACE com.michael.database.UsersImplementation:143 Email is unique
+2021-11-15 06:26:07  TRACE com.michael.database.AccountImplementation:109 No Duplicate Usernames found forRevature
+2021-11-15 06:26:07  TRACE com.michael.database.UsersImplementation:103 Returning 1
+2021-11-15 06:26:08  TRACE com.michael.database.UsersImplementation:75 User created: Revature
+2021-11-15 06:26:08  TRACE com.michael.database.AccountImplementation:170 FindMaxInt(Account) returns 11 +1
+2021-11-15 06:26:08  TRACE com.michael.database.AccountImplementation:141 Account Successfully Created with user-input values: 12 18 Revature
+2021-11-15 06:26:40  TRACE com.michael.database.AccountImplementation:214 Found Login Account under Revature
+2021-11-15 06:26:52  TRACE com.michael.database.AccountImplementation:214 Found Login Account under admin
+2021-11-15 06:29:57  TRACE com.michael.database.AdminImplementation:119 Admin login acknowledged
+2021-11-15 06:29:59  TRACE com.michael.database.AccountImplementation:301 Selected All from Accounting Table
+2021-11-15 06:30:07  TRACE com.michael.database.AccountImplementation:337 Unapproved Accounts Obtained
+2021-11-15 06:30:11  TRACE com.michael.database.AccountImplementation:372 12 approved.
+2021-11-15 06:30:12  TRACE com.michael.database.AccountImplementation:50 Successfully returnedAccount [accountid=12, fk_users=18, username=Revature, activated=true, reputation=0]
+2021-11-15 06:30:13  TRACE com.michael.database.AccountImplementation:301 Selected All from Accounting Table
+2021-11-15 06:30:27  TRACE com.michael.database.AccountImplementation:214 Found Login Account under Revature
+2021-11-15 06:30:31  TRACE com.michael.database.ClassImplementation:51 Returning All Classes...
+2021-11-15 06:33:37  TRACE com.michael.database.ClassImplementation:86 Returning 6 1
+2021-11-15 06:33:37  TRACE com.michael.database.ClassImplementation:116 A new class has been created with classid 7
+2021-11-15 06:33:50  TRACE com.michael.database.ClassImplementation:51 Returning All Classes...
+2021-11-15 06:33:59  TRACE com.michael.database.UsersImplementation:212 Returning full name: Revature Dansel
+2021-11-15 06:34:00  TRACE com.michael.database.UsersImplementation:43 User 18 selected.
+2021-11-16 12:56:34  TRACE com.michael.database.AccountImplementation:214 Found Login Account under user
+2021-11-16 12:56:50  TRACE com.michael.database.ClassImplementation:51 Returning All Classes...
+2021-11-16 12:57:01  TRACE com.michael.database.UsersImplementation:212 Returning full name: Michael Ord
+2021-11-16 12:57:02  TRACE com.michael.database.UsersImplementation:43 User 1 selected.
